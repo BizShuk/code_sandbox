@@ -1,3 +1,7 @@
+// TODO:
+//  link list prototype pop()
+//  link list prototype remove( node )
+
 (function(root){
     
     root.linknode = function(value,next,prev){
@@ -63,6 +67,7 @@
     
     // start from head and pass each node to callback function
     root.linklist.prototype.foreach = function(callback){
+        console.log(callback);
         var point_tmp = this.head;
         while( point_tmp != null ){
             callback.apply(null,[point_tmp]);
@@ -90,14 +95,21 @@ for( i=0 ; i <=5 ; i++ ){
 
 console.log("\x1b[32m link list sample:\x1b[m\n");
 
-/*
 var tmp = link_list_sample.start();
 while( tmp != null ){
-    console.log(tmp, tmp.next ? tmp.next.value : null , tmp.prev ? tmp.prev.valu : null);
+    console.log( tmp );
     tmp = tmp.next;
 }
-*/
 
 
 link_list_sample.reverse();
-console.log("\x1b[32m reverse link list:\x1b[m\n",link_list_sample.list);
+console.log("\x1b[32m reverse link list:\x1b[m\n");
+
+link_list_sample.foreach(function(node){ 
+    console.log(node);
+});
+
+
+
+
+
