@@ -14,7 +14,7 @@ RUN     apt-get install -y git curl vim
 
 
 # openresty setting
-RUN     git clone http://192.168.2.52:3000/shuk/openresty_setting.git
+RUN     git clone http://10.128.3.21:3000/shuk/openresty_setting.git
 RUN     cd openresty_setting; /bin/bash -c ./server_install.sh; /bin/bash -c ./lua_conf_setup.sh;
 RUN     chmod +x /root: 
 
