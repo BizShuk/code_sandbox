@@ -6,6 +6,9 @@
 # diff
 diff implementation
 
+## algo. 
+- diff ,
+- load balanace ,
 
 ### to do list:
 1. implement file io with two input
