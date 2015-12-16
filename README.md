@@ -1,3 +1,8 @@
+### code benchmardk
+- call by other code in protection mode
+- async way
+
+
 # diff
 diff implementation
 
