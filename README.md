@@ -1,3 +1,14 @@
+### code benchmardk
+- call by other code in protection mode
+- async way
+
+
+# diff
+diff implementation
+
+## algo. 
+- diff ,
+- load balanace ,
 
 # to do list:
 
