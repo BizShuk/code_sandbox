@@ -37,6 +37,8 @@ diff implementation
 - diff , lonest common pattern
 - load balanace 
 - http://www.csie.ntnu.edu.tw/~u91029/index.html
+- [LZ77 and LZ78](https://en.wikipedia.org/wiki/LZ77_and_LZ78#LZ77)
+- [DEFLATE](https://en.wikipedia.org/wiki/DEFLATE)
 
 ### bizshuk.github.io
 
