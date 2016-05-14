@@ -6,6 +6,17 @@
 - [Function Types in Go](http://jordanorelli.com/post/42369331748/function-types-in-go-golang)
 - [Go examples](https://gobyexample.com/)
 
+- [ ] [Functions Types in Go](http://jordanorelli.com/post/42369331748/function-types-in-go-golang)
+- [Go study](go/)
+- [git2go tutorial](https://blog.gopheracademy.com/advent-2014/git2go-tutorial/)
+- [Google CS education](https://www.google.com/edu/cs/index.html)
+
+
+
+
+
+
+
 ### Go cmd
 go get [options] <package> , download packaget to $GOPATH with hierarchical path
     options:
