@@ -18,6 +18,7 @@
 - [Scheduling algorithms](https://en.wikipedia.org/wiki/Category:Scheduling_algorithms) , include disk , network , and processor
 - [Scheduling disciplines](https://en.wikipedia.org/wiki/Scheduling_(computing))
 - [Huffman Code](huffman_code)
+- base64
 
 
 
