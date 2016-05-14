@@ -1,1 +1,0 @@
-# this is for denv command under bizshuk/env_setup

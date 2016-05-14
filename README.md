@@ -4,17 +4,30 @@
 - [演算法筆記](http://www.csie.ntnu.edu.tw/~u91029/index.html)
 - [LeeCode](https://leetcode.com/s) , algorithm submission
 - [Go](go/README.md)
-
+- [Gooogle Site Reliability Engineering](https://landing.google.com/sre/)
 
 
 
 ### LINK
 - [Algo](algo/README.md)
-- [Server](server/README.md)
 - [Code Concept](concept/README.md)
+- [Linux](Linux/README.md)
+- [Server](server/README.md)
+    - Nginx
+    - Kubernetes
+    - 
+- [Database](Database/README.md)
+- [DevOps](DevOps/README.md)
+    - Docker
+    - 
 - Languages
     - [Go](go/README.md)
     - Python
+    - [bash](bash/README.md)
+    - javascript
+    - html5
+    - CSS 
+    - 
 - Field
     - [cryptographic](cryptographic/README.md)
 
