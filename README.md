@@ -1,5 +1,13 @@
 # Coding zone
 
+### Doing
+- [演算法筆記](http://www.csie.ntnu.edu.tw/~u91029/index.html)
+- [LeeCode](https://leetcode.com/s) , algorithm submission
+- [Go](go/README.md)
+
+
+
+
 ### LINK
 - [Algo](algo/README.md)
 - [Server](server/README.md)
@@ -11,16 +19,14 @@
     - [cryptographic](cryptographic/README.md)
 
 
-### to do list:
-- [演算法筆記](http://www.csie.ntnu.edu.tw/~u91029/index.html)
-- [LeeCode](https://leetcode.com/s) , algorithm submission
-- [Go](go/README.md)
 
 
-### Online Learning
+### Online Learning Resource
 - [演算法筆記](http://www.csie.ntnu.edu.tw/~u91029/index.html)
 - [LeeCode](https://leetcode.com/s) , algorithm submission
 - [FreeCodeCampe](http://freecodecamp.com/) , HTML javascript CSS
+
+
 
 
 ### Architecture
