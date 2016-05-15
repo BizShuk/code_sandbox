@@ -68,6 +68,8 @@ SEO:
 LICENSE
 - [Choose License](http://choosealicense.com/)
 
+Open Sourrce contributor level
+- [Commiter level](http://www.apache.org/foundation/how-it-works.html#roles)
 
 Experiences
 - [十年一覺程設夢(上)：在華碩10年的職場經驗 / Eee PC 事業處主管 (2008年)](http://mepopedia.com/forum/read.php?22,7232)
