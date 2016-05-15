@@ -19,8 +19,7 @@
 - [Scheduling disciplines](https://en.wikipedia.org/wiki/Scheduling_(computing))
 - [Huffman Code](huffman_code)
 - base64
-
-
+- [八皇后問題](https://zh.wikipedia.org/wiki/%E5%85%AB%E7%9A%87%E5%90%8E%E9%97%AE%E9%A2%98)
 
 # data structure
 
