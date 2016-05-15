@@ -48,6 +48,15 @@
 - [System design Concept](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
 
 
+
+### Article
+- [How does AFS work?](http://www.apache.org/foundation/how-it-works.html) , include commiter level
+- 
+
+### Others
+- [Choose License](http://choosealicense.com/)
+
+
 <br><br><br><br>
 
 
@@ -65,11 +74,6 @@ SEO:
 - [Robot.txt-1](http://www.webconfs.com/what-is-robots-txt-article-12.php)
 - [Robot.txt-2](http://www.robotstxt.org/robotstxt.html)
 
-LICENSE
-- [Choose License](http://choosealicense.com/)
-
-Open Sourrce contributor level
-- [Commiter level](http://www.apache.org/foundation/how-it-works.html#roles)
 
 Experiences
 - [十年一覺程設夢(上)：在華碩10年的職場經驗 / Eee PC 事業處主管 (2008年)](http://mepopedia.com/forum/read.php?22,7232)
