@@ -6,4 +6,5 @@
 - File lock
 - Race Condition
 - Singleton
-
+- shadow
+lazy
