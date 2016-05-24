@@ -10,5 +10,3 @@
 
 ### ref
 - [Go string](../go/string/README.md)
-- [Go string](/go/string/README.md)
-- [Go string](//go/string/README.md)
