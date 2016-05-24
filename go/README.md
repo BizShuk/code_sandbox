@@ -3,14 +3,16 @@
 ### ref
 - [Wiki](https://github.com/golang/go/wiki) , Working with Go ,Learning more about Go
 - [IDE, Edit](https://github.com/golang/go/wiki/IDEsAndTextEditorPlugins) , [Vim-go](https://github.com/fatih/vim-go)
-- [Function Types in Go](http://jordanorelli.com/post/42369331748/function-types-in-go-golang)
+- [git2go tutorial](https://blog.gopheracademy.com/advent-2014/git2go-tutorial/)
+- [Go study](go/)
+
+### Exercise
+- [A tour of Go](https://tour.golang.org/welcome/1)
 - [Go examples](https://gobyexample.com/)
 
-- [ ] [Functions Types in Go](http://jordanorelli.com/post/42369331748/function-types-in-go-golang)
-- [Go study](go/)
-- [git2go tutorial](https://blog.gopheracademy.com/advent-2014/git2go-tutorial/)
-- [Google CS education](https://www.google.com/edu/cs/index.html)
-
+### Language spec
+- [Functions Types in Go](http://jordanorelli.com/post/42369331748/function-types-in-go-golang)
+- [Language Specification](https://golang.org/ref/spec)
 
 
 
