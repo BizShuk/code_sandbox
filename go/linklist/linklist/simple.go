@@ -76,7 +76,6 @@ func (l *Simplelist) Shift() (*Simplenode, error) {
 	l.Head = shifted.next
 	l.len--
 	return shifted, nil
-
 }
 
 func (l *Simplelist) Append(n *Simplenode) int {
@@ -91,7 +90,6 @@ func (l *Simplelist) Append(n *Simplenode) int {
 	l.Tail.next = n
 	l.Tail = n
 	return l.len
-
 }
 
 func (l *Simplelist) Remove() (*Simplenode, error) {
@@ -116,7 +114,6 @@ func (l *Simplelist) Remove() (*Simplenode, error) {
 	l.len--
 
 	return c, nil
-
 }
 
 func (l *Simplelist) is_tail(n *Simplenode) bool {
@@ -124,6 +121,27 @@ func (l *Simplelist) is_tail(n *Simplenode) bool {
 		return true
 	}
 	return false
+}
+
+func (l *Simplelist) Reverse() error {
+
+	if l.Head == l.Tail {
+		return nil
+	}
+
+	next := l.Head.next
+	l.Tail = l.Head
+
+	var pre *Simplenode
+	for next != nil {
+		pre = l.Head
+		l.Head = next
+		next = l.Head.next
+		l.Head.next = pre
+	}
+	l.Tail.next = nil
+
+	return nil
 }
 
 type Simplenode struct {

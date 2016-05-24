@@ -68,4 +68,9 @@ func main() {
 	fmt.Printf("%v\n", sn4)
 	simplelist.Printall()
 
+	simplelist.Reverse()
+	simplelist.Printall()
+
+	simplelist.Reverse()
+	simplelist.Printall()
 }
