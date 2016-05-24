@@ -1,0 +1,37 @@
+package linklist
+
+type linklist interface {
+	len() int
+	head() *node
+	tail() *node
+	insert(node) error
+	delete(node) bool
+	is_tail() bool
+	iterator() *node
+}
+
+type node interface {
+	next() *node
+	prev() *node
+}
+
+func NewSimpleList() *simplelist {
+	new := &simplelist{}
+	return new
+}
+
+type simplelist struct {
+	p    *node
+	head *node
+	tail *node
+}
+
+func (l *simplelist) insert(n *node) error {
+
+}
+
+type simplenode struct {
+	value string
+	next  *node
+	prev  *node
+}
