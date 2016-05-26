@@ -1,5 +1,8 @@
 # Code concept
 
+###
+- DRY (don't repeat youself) , ex: FizzBuzz
+
 ### 
 - [string](string.md)
 

@@ -1,3 +1,4 @@
+// test godoc
 package main
 
 import (
