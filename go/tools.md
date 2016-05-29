@@ -15,6 +15,11 @@ options:
 -d , download only                                                               
 ~                                   
 
+
+##### Go doc
+Get comments before package name. If there is a bug in some function, `// BUGS(who)` comment will be captured ,too
+
+
 ##### Go install
 places the package object inside the pkg directory of the workspace.
 If it's a executable program , place it inside the bin directory

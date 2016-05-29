@@ -144,6 +144,18 @@ func (l *Simplelist) Reverse() error {
 	return nil
 }
 
+func (l *Simplelist) Copy() *Simplelist {
+	lnode, newlist := l.Head, &Simplelist{}
+
+	for lnode != nil {
+		fmt.Printf("1\n")
+		newnode := &Simplenode{Value: lnode.Value}
+		newlist.Append(newnode)
+		lnode = lnode.next
+	}
+	return newlist
+}
+
 type Simplenode struct {
 	Value string
 	next  *Simplenode
