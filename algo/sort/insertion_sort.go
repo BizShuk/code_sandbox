@@ -1,8 +1,8 @@
-package sorts
+package sort
 
 // pick next and insert to sorted slice
 // important: how to get j which is point of stopping comparsion
-func Insertion_sort(src []int) (int, int) {
+func InsertionSort(src []int) (int, int) {
 	ct, et := 0, 0
 	var tmp int
 

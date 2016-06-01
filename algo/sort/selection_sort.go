@@ -1,7 +1,7 @@
-package sorts
+package sort
 
 // select max(min) value in this round and put it in the head(tail)
-func Selection_sort(src []int) (int, int) {
+func SelectionSort(src []int) (int, int) {
 	var ct, et, tmp int
 	for i := 0; i < len(src); i++ {
 		tmp = i

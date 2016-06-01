@@ -1,10 +1,6 @@
-package sorts
+package sort
 
-import (
-	"fmt"
-)
-
-func Quick_sort(src []int) (int, int) {
+func QuickSort(src []int) (int, int) {
 	ct, et := quick_sort(src, 0, len(src)-1)
 	return ct, et
 }
@@ -13,7 +9,6 @@ func quick_sort(src []int, left, right int) (int, int) {
 	ct, et := 0, 0
 	key, value := left, src[left]
 	i, j := left+1, right
-	fmt.Println(left, right, src)
 	if i > j {
 		return ct, et
 	}
@@ -25,7 +20,6 @@ func quick_sort(src []int, left, right int) (int, int) {
 		}
 
 		if i >= j {
-			fmt.Printf("%v %v\n", src[left:], src[left+1:key+1])
 			copy(src[left:], src[left+1:key+1])
 			src[key] = value
 			quick_sort(src, left, key)

@@ -7,6 +7,38 @@
 
 - [演算法筆記](http://www.csie.ntnu.edu.tw/~u91029/index.html)
 
+### implement
+- twoSum , [bf](twosum/twosum_bf.go) , [hash](twosum/twosum_onehash.go)
+- combine , [bf](backtrack/combination_bf.go) , [recur](backtrack/combination_recur.go) ,  goroutine of recursive
+- sorting , 
+    - [bubble](sort/bubble_sort.go) , 
+    - [insertion_sort](sort/insertion_sort.go) , 
+    - [quick sort](sort/quick_sort.go) , 
+    - [selection sort](sort/selection_sort.go) , 
+    - [sort2Dcolumn](sort/sort2Dcolumn.go)
+- compress , 
+    - [summaryRange](compress/summaryRange.go)
+- dynamic programming
+    Kadane's Algorithm
+    - [MaxProfit multi transactions](dy/maxProfit_multi_transactions.go)
+    - [MaxProfit one transaction](dy/maxProfit_one_transaction.go)
+
+### ds
+- [x] [Linklist](linklist/) , single , double , circle , 
+- [ ] [Tree] , btree, multiple tree , red-black tree
+- [ ] [Stack] , 
+- [ ] [Queue] , double-ended queue , priority queue
+- [ ] [heap] , 
+- [ ] [map] ,
+- [ ] [set] ,
+
+
+skills:
+- resource management
+- operation function
+- 
+
+
 ### list
 - A\* search
 - short url

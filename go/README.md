@@ -1,5 +1,7 @@
 # Golang
 
+### undoc
+- excution priority , global variable -> init() -> main()
 
 
 ### Outline

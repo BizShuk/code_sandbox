@@ -1,5 +1,9 @@
 package twosum
 
+import (
+	"sort"
+)
+
 // Brute Force
 func twoSum_bf(nums []int, target int) []int {
 	result := make([]int, 0)
