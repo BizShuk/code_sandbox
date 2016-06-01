@@ -1,21 +1,21 @@
 // test godoc
-package main
+package linklist
 
 import (
-	"./linklist"
 	"fmt"
+	"testing"
 )
 
-func main() {
-	n1 := &linklist.Simplenode{Value: "t1"}
-	n2 := &linklist.Simplenode{Value: "t2"}
-	n3 := &linklist.Simplenode{Value: "t3"}
-	n4 := &linklist.Simplenode{Value: "t4"}
-	n5 := &linklist.Simplenode{Value: "t5"}
-	n6 := &linklist.Simplenode{Value: "t6"}
-	n7 := &linklist.Simplenode{Value: "t7"}
+func TestSimple(t *testing.T) {
+	n1 := &Simplenode{Value: "t1"}
+	n2 := &Simplenode{Value: "t2"}
+	n3 := &Simplenode{Value: "t3"}
+	n4 := &Simplenode{Value: "t4"}
+	n5 := &Simplenode{Value: "t5"}
+	n6 := &Simplenode{Value: "t6"}
+	n7 := &Simplenode{Value: "t7"}
 
-	simplelist := linklist.Simplelist{}
+	simplelist := Simplelist{}
 	simplelist.Printall()
 
 	sn1, err := simplelist.Remove()

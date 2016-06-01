@@ -1,5 +1,11 @@
 # Google
 
+[jobs site](http://www.google.com/about/careers/)
+[location](http://www.google.com/about/careers/locations/)
+[How google hire](https://www.google.com/about/careers/how-we-hire/)
+[interview preparatioon](https://www.youtube.com/watch?v=oWbUtlUhwa8)
+
+
 Type:  
 - Software engineer
 - System engineer , Site-Reliability engineer
