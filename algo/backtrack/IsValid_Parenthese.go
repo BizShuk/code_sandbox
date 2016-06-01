@@ -9,12 +9,10 @@ func IsValid_Parenthese(s string) bool {
 	}
 
 	for i := 0; i < len(s); i++ {
-		_s := s[i]
-		if _s == '{' || _s == '[' || _s == '(' {
+		switch s[i] {
+		case '(', '[', '{':
 			stack = append(stack, _s)
-		}
-
-		if _s == '}' || _s == ']' || _s == ')' {
+		case ')', ']', '}':
 			if len(stack) == 0 || validmap[_s] != stack[len(stack)-1] {
 				return false
 			}
