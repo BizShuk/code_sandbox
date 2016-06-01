@@ -11,9 +11,9 @@ func IsValid_Parenthese(s string) bool {
 	for i := 0; i < len(s); i++ {
 		switch s[i] {
 		case '(', '[', '{':
-			stack = append(stack, _s)
+			stack = append(stack, s[i])
 		case ')', ']', '}':
-			if len(stack) == 0 || validmap[_s] != stack[len(stack)-1] {
+			if len(stack) == 0 || validmap[s[i]] != stack[len(stack)-1] {
 				return false
 			}
 			stack = stack[:len(stack)-1]
