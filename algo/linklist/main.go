@@ -1,3 +1,4 @@
+// test godoc
 package main
 
 import (
@@ -68,9 +69,18 @@ func main() {
 	fmt.Printf("%v\n", sn4)
 	simplelist.Printall()
 
+	fmt.Println("Linklist reverse")
 	simplelist.Reverse()
 	simplelist.Printall()
 
 	simplelist.Reverse()
 	simplelist.Printall()
+
+	fmt.Println("Linklist copy")
+	newcopy := simplelist.Copy()
+	newcopy.Printall()
+	newcopy.P.Value = "99"
+	simplelist.Printall()
+	newcopy.Printall()
+
 }

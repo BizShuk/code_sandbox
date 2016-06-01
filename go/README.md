@@ -24,6 +24,8 @@
 ### Exercise
 - [A tour of Go](https://tour.golang.org/welcome/1)
 - [Go examples](https://gobyexample.com/)
+- [Go Concurrency Visualizing](http://divan.github.io/posts/go_concurrency_visualize/)
+
 
 ### Language spec
 - [Functions Types in Go](http://jordanorelli.com/post/42369331748/function-types-in-go-golang)
