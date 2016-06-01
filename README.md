@@ -68,6 +68,9 @@
 Exams:  
 - [ ] [各種程式考題](https://softnshare.wordpress.com/2016/02/21/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80%E9%9D%A2%E8%A9%A6%E8%80%83%E9%A1%8C%E9%9B%86%E9%8C%A6/)
 
+[List of world tech center](https://en.wikipedia.org/wiki/List_of_technology_centers)
+[12factor](http://12factor.net/)
+
 SEO:  
 - [Tool] [Alexa](http://www.alexa.com/) 
 - [查詢網站流量](http://por.tw/seo/rewrite.php/read-72.html)
@@ -89,10 +92,3 @@ Analysis
 - [X] [AAARR](http://wapbaike.baidu.com/view/10197444.htm?adapt=1&)
 
 
-
-
-
-### OutLinks
-- [Shuk's site](http://shuk.info/)
-- [GitHub](https://github.com/BizShuk)
-- [Resume list](https://github.com/BizShuk/bizshuk.github.io/tree/master/resume)

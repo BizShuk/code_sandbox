@@ -11,13 +11,13 @@
 - twoSum , [bf](twosum/twosum_bf.go) , [hash](twosum/twosum_onehash.go)
 - combine , [bf](backtrack/combination_bf.go) , [recur](backtrack/combination_recur.go) ,  goroutine of recursive
 - sorting , 
-    - [bubble](sort/bubble_sort.go) , 
-    - [insertion_sort](sort/insertion_sort.go) , 
-    - [quick sort](sort/quick_sort.go) , 
-    - [selection sort](sort/selection_sort.go) , 
-    - [sort2Dcolumn](sort/sort2Dcolumn.go)
+    - [Bubble sort](sort/bubble_sort.go) , 
+    - [Insertion sort](sort/insertion_sort.go) , 
+    - [Quick sort](sort/quick_sort.go) , 
+    - [Selection sort](sort/selection_sort.go) , 
+    - [Sort2Dcolumn](sort/sort2Dcolumn.go)
 - compress , 
-    - [summaryRange](compress/summaryRange.go)
+    - [SummaryRange](compress/summaryRange.go)
 - dynamic programming
     Kadane's Algorithm
     - [MaxProfit multi transactions](dy/maxProfit_multi_transactions.go)
