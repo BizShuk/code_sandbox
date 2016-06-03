@@ -3,6 +3,8 @@
 ### undoc
 - excution priority , global variable -> init() -> main()
 
+### pass by 
+Go is always passed by Value
 
 ### Outline
 - [Debug](debug.md)

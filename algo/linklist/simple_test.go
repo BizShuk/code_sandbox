@@ -7,13 +7,13 @@ import (
 )
 
 func TestSimple(t *testing.T) {
-	n1 := &Simplenode{Value: "t1"}
-	n2 := &Simplenode{Value: "t2"}
-	n3 := &Simplenode{Value: "t3"}
-	n4 := &Simplenode{Value: "t4"}
-	n5 := &Simplenode{Value: "t5"}
-	n6 := &Simplenode{Value: "t6"}
-	n7 := &Simplenode{Value: "t7"}
+	n1 := &ListNode{Val: "t1"}
+	n2 := &ListNode{Val: "t2"}
+	n3 := &ListNode{Val: "t3"}
+	n4 := &ListNode{Val: "t4"}
+	n5 := &ListNode{Val: "t5"}
+	n6 := &ListNode{Val: "t6"}
+	n7 := &ListNode{Val: "t7"}
 
 	simplelist := Simplelist{}
 	simplelist.Printall()
@@ -45,7 +45,7 @@ func TestSimple(t *testing.T) {
 
 	i := simplelist.Head
 	for i != nil {
-		fmt.Printf("%s\n", i.Value)
+		fmt.Printf("%s\n", i.Val)
 		i = simplelist.Iterator()
 	}
 
@@ -79,7 +79,7 @@ func TestSimple(t *testing.T) {
 	fmt.Println("Linklist copy")
 	newcopy := simplelist.Copy()
 	newcopy.Printall()
-	newcopy.P.Value = "99"
+	newcopy.P.Val = "99"
 	simplelist.Printall()
 	newcopy.Printall()
 
