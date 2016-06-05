@@ -25,7 +25,12 @@ will cause leak or not?
     a = a.x()
 
 ```
+### number
+All numbers in JavaScript are 64-bit (double-precision) floating point numbers.
 
+
+### bits op
+negative number right shift bits with 1 and postive with 0
 
 
 # nodejs
