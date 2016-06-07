@@ -162,8 +162,3 @@ func (l *Simplelist) Copy() *Simplelist {
 	}
 	return newlist
 }
-
-type ListNode struct {
-	Val  interface{}
-	Next *ListNode
-}
