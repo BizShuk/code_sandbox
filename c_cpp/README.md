@@ -9,6 +9,18 @@ sizeof , size of bytes  check each type of bytes at sizeof.cpp
 use sizeof to know memory size(byte) , but there is no way to know a pointer array size.
 
 
+
+[pointer mapping](http://stackoverflow.com/questions/3920729/in-c-c-is-char-arrayname-a-pointer-to-a-pointer-to-a-pointer-or-a-pointe?answertab=active#3925968)
+
+
+swap continuous memory => segmentation fault
+```
+    int a[10];
+    swap_address(a[1],a[5]);
+```
+
+
+
 ### build
 	
 ##### build shared object
@@ -27,16 +39,47 @@ use sizeof to know memory size(byte) , but there is no way to know a pointer arr
 
 # CPP
 
+
+### garbege collection
+If it use **malloc** or **new** , it need to be **free()** or **delete**. 
+
+##### new
+If new is assigned to pointer or reference. After end of the scope , pointer and reference will be recycled, but not the new object.
+In other situation , if you reassign pointer to a usual variable , it'll be recycled after end of the scope.
+
+##### malloc
+?
+
+
+
+### Class
+check example [here](class.cpp)
+
+**this** is a pointer.
+
+##### Different between new and no-new
+- `Point p1 = Point(0,0)` , collect when scope is gone
+- `Point p1 = new Point(0,0)` , need to delete p1
+
+##### Differenet between . and ->
+`*a.b` = `a->b`
+
+
+
 ### function parameter 
 
 ##### pass by value
 ```
 void <func_name>(int p)
 ```
+
 ##### pass by reference
 ```
 void <func_name>(int &p)
 ```
+treat this like alias.
+
+
 ##### pass by address
 ```
 void <func_name>(int *p)
@@ -44,7 +87,7 @@ void <func_name>(int *p)
 
 
 
-http://memo.cgu.edu.tw/shin-yan/1002_ComputerProgramming/Ch13.pdf
+
 
 ##### virtual function
 	ex: virtual void function_name(){};
@@ -96,8 +139,13 @@ Casting example:
 
 ##### public private protected 差異
 
-
-
+|作用域　 |當前類|同一package|子孫類|其他package|
+|---------|------|-----------|------|-----------|
+|public 　|　√　|　　√　　 |　√　|　　√     |
+|protected|  √　|　　√　　 |　√　|　　×     |
+|friendly |　√　|　　√　　 |　×　|　  ×     |
+|private　|　√　|　　×　　 |　×　|　  ×     |
+ 
 
 
 
