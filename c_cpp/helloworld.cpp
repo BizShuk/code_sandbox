@@ -2,10 +2,9 @@
 #include <iomanip>
 using namespace std;
 
-int main()
-{
+int main() {
 
-      cout <<  setiosflags(ios::left);
+    cout <<  setiosflags(ios::left);
 
     for (int i = 0; i < 6; i++) {
         for (int j = 0; j < 4; j++) {

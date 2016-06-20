@@ -1,5 +1,81 @@
 # C_CPP
 
+### resource
+- [Programming in C](http://www-ee.eng.hawaii.edu/Courses/EE150/Book/book.html)
+- [CPPUnit](http://cppunit.sourceforge.net/doc/cvs/cppunit_cookbook.html)
+
+### Practices and Exercises
+
+Concept:
+- [Pointer.cpp](pointer.cpp)
+- [Sizeof](sizeof.cpp)
+- [Class](class.cpp)
+- [Reference](reference.cpp)
+- [Garbage Collection](gc.cpp)
+
+Google for Education C++:
+- Getting Started
+    - [Example #1](helloworld.cpp)
+    - [Example #2](get_input.cpp)
+    - [Example #3](multiplication_table.cpp)
+    - [Example #4](guess_game.cpp)
+    - [Example #5](math_puzzles.cpp)
+    - [Example #6](string_output.cpp)
+    - [Example #7](best_sale.cpp)
+    - [Example #8](scope_output.cpp)
+    - [Example #9](file_io.cpp)
+    - [Exercise #1](cricket_chirps.cpp)
+    - [Exercise #2](exam.cpp)
+    - [Exercise #3](sec_format.cpp)
+    - [Exercise #4](char_bigsize.cpp)
+    - [Exercise #5](reverse_num.cpp)
+    - [Exercise #6](date_encode.cpp)
+    - [Exercise #7](divide_magic.cpp)
+- Next Steps
+    - [Example #1](shooting_game.cpp)
+    - [Example #2](pointer.cpp) function pointer1
+    - [Example #3](vehicle_speed.cpp)
+    - [Example #4](class.cpp) 
+    - [Exercise #1](perfect_square.cpp)
+    - [Exercise #2](order_predict.cpp)
+    - [Project Database](Database.cpp) . Database.h Database.cpp Composer.h Composer.cpp Database_main.cpp Database_main.make
+- C++ In Depth
+    - [Exercise #1](pointer.cpp) function pointer2
+    - Exercise #2 , check Next Steps **Exercises**
+    - [Exercise #3](multi-dimensional_arrays.cpp) 
+    - [Exercise #4](oo)
+    - CPPUnit for Database exercise
+    - [Project ]
+
+- [reverse bits](reverseBits.cpp)
+
+
+
+
+
+### build
+	
+##### build
+`gcc`:  
+- shared object , `gcc -shared -o libhello.so -fPIC hello.c`
+
+
+
+g++:  
+- `-c [-o <obj file>]`, compile only. Without `-c` , it'll compile and link together. 
+- `-I <program path>` ,   --dynamic-linker 
+- `-g` ,    generate debugging information
+- `-Wall` , enable most warning messages
+- `-shared -o xxxx.so `
+- `-L <lib path>`
+- shared object , `gcc -shared -o libhello.so -fPIC hello.c`
+
+
+
+# C
+
+### Sizeof
+[Example](sizeof.cpp)
 sizeof , size of bytes  check each type of bytes at sizeof.cpp
 - int 4 bytes
 - char 1 bytes
@@ -10,31 +86,16 @@ use sizeof to know memory size(byte) , but there is no way to know a pointer arr
 
 
 
-[pointer mapping](http://stackoverflow.com/questions/3920729/in-c-c-is-char-arrayname-a-pointer-to-a-pointer-to-a-pointer-or-a-pointe?answertab=active#3925968)
-
-
+### memory
 swap continuous memory => segmentation fault
 ```
     int a[10];
     swap_address(a[1],a[5]);
 ```
 
-
-
-### build
-	
-##### build shared object
-`gcc -shared -o libhello.so -fPIC hello.c`
-
-##### build
-`gcc`
-
-`g++`
-
-
-
-
-
+### pointer
+[Example](pointer.cpp)  
+[pointer mapping](http://stackoverflow.com/questions/3920729/in-c-c-is-char-arrayname-a-pointer-to-a-pointer-to-a-pointer-or-a-pointe?answertab=active#3925968)
 
 
 # CPP

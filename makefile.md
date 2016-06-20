@@ -5,8 +5,6 @@
 
 ### option
 - `-f <makefile name>`, specific makefile
-- `-c [-o <obj file>]`, compile only. Without `-c` , it'll compile and link together.
-- `-o <obj file>` , output object file
 
 
 ### all

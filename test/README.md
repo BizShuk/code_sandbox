@@ -5,6 +5,9 @@
 - black box test
 - white box test
 - unit test
+- code coverage , it's 100% code coverage which is  all lines of code are tested.
+
+
 
 ### smoke test
 test as a user
@@ -25,3 +28,13 @@ test as a user
 
 ### unit test
 針對最小單位function做測試
+
+
+
+
+### Cases
+- Null cases
+- Range tess cases
+- Edge cases
+- Failure cases
+- path of most of the excution time

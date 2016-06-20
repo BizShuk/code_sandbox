@@ -2,8 +2,7 @@
 #include <time.h>
 using namespace std;
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
     
     int max = 100;
     int rand_num,guess;
