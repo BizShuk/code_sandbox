@@ -44,8 +44,9 @@ Google for Education C++:
     - Exercise #2 , check Next Steps **Exercises**
     - [Exercise #3](multi-dimensional_arrays.cpp) 
     - [Exercise #4](oo)
-    - CPPUnit for Database exercise
-    - [Project ]
+    - [CPPUnit Example](TestComplexNumber.cpp)
+    - CPPUnit for Database Composer exercise
+    - [Project article query](article_query.cpp)
 
 - [reverse bits](reverseBits.cpp)
 
@@ -69,7 +70,7 @@ g++:
 - `-shared -o xxxx.so `
 - `-L <lib path>`
 - shared object , `gcc -shared -o libhello.so -fPIC hello.c`
-
+- `-l<package>` , after files which to be compiled
 
 
 # C
@@ -100,9 +101,84 @@ swap continuous memory => segmentation fault
 
 # CPP
 
+### CPP11
+
+##### smart porinter
+- unique_ptr , only one pointer.
+- sharedd_ptr , after no references , it'll be delted
+- weak_ptr , no reference count , maybe deleted by other.
+
+##### Lambda expression
+```cpp
+int main()
+{
+    char s[]="Hello World!";
+    int Uppercase = 0; //modified by the lambda
+    for_each(s, s+sizeof(s), [&Uppercase] (char c) {
+            if (isupper(c))
+            Uppercase++;
+            });
+    cout<< Uppercase<<" uppercase letters in: "<< s<<endl;
+}
+```
+
+##### rValue
+move sematics
+
+##### Auto type
+- `auto i = f()`
+- `for_each( auto const& i : ints)`
+
+##### type long long
+`auto national_debt=14400000000000LL;//long long`
+`for(auto it=vi.begin(); it != vi.end(); ++it)`
+
+##### Uniform initialization notation
+- `int[] a(10,2)` , initial 10 elements with 2 value.
+- `int[] a{10,2}` , initail 2 elements with 10 and 2 value.
+- initial class data  
+```
+class C {
+    private:
+        int a = 7;
+}
+```
+
+##### Deleted and Defaulted Functions
+```
+Class A
+{
+    A()=default; //C++11
+    virtual ~A()=default; //C++11
+};
+```
+
+##### nullptr
+
+##### Delegating Constructors
+```
+class M //C++11 delegating constructors
+{
+    int x, y;
+    char *p;
+    public:
+    M(int v) : x(v), y(0), p(new char [MAX]) {} //#1 target
+    M(): M(0) {cout<<"delegating ctor"<<endl;} //#2 delegating
+};
+```
+
+##### \_\_thread_local storage class
+
+##### Control and query of object alignment
+
+##### Static assertions
+
+##### Variadic templates
+
+
 
 ### garbege collection
-If it use **malloc** or **new** , it need to be **free()** or **delete**. 
+If it use **malloc** or **new** , it need to be **free()** or **delete**. And check [smart pointer](#smart-pointer)
 
 ##### new
 If new is assigned to pointer or reference. After end of the scope , pointer and reference will be recycled, but not the new object.
@@ -209,4 +285,28 @@ Casting example:
  
 
 
+### CppUnit
+- [Official site](http://cppunit.sourceforge.net/doc/cvs/cppunit_cookbook.html)  
+- [Example](TestComplexNumber.cpp)
+
+1. include
+```
+#include <cppunit/extensions/HelperMacros.h> 
+```
+2. create test class and extend public CPPUNIT_NS::TestFixture  
+`class TestComplexNumber : public CPPUNIT_NS::TestFixture`
+3. 
+
+
+
+
+### Basic Assert
+CPPUNIT_ASSERT:
+```
+    CPPUNIT_ASSERT( Complex (10, 1) == Complex (10, 1) );
+```
+
+##### Fixture
+- setUp() ,  intiialize the variables
+- tearDown() , release any permanent resources you allocated in setUp()
 
