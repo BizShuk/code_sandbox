@@ -64,4 +64,10 @@ func main() {
 	fmt.Printf("%T\n", t)
 
 	fmt.Println(test_i())
+
+	a := 1
+	b := 1
+
+	fmt.Println(a ^ b)
+	fmt.Println(a & b)
 }

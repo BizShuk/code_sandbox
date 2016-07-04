@@ -126,3 +126,42 @@ func (n *Listnode) Copy() *Listnode {
 	new_node := &Listnode{n.Val, nil, nil}
 	return new_node
 }
+
+func (n *Listnode) Show() {
+	tmp := n
+	for tmp != nil {
+		fmt.Print(tmp.Val)
+		if tmp.Next != nil {
+			fmt.Print(" -> ")
+		}
+		tmp = tmp.Next
+	}
+	fmt.Println()
+}
+
+// TODO : none recursive version
+// Listnode with type int Val
+func addTwoNumber(n1 *Listnode, n2 *Listnode, carry int) *Listnode {
+	var n1_tmp *Listnode = nil
+	var n2_tmp *Listnode = nil
+
+	sum := 0
+	if n1 != nil {
+		sum += n1.Val.(int)
+		n1_tmp = n1.Next
+		fmt.Println(1)
+	}
+
+	if n2 != nil {
+		sum += n2.Val.(int)
+		n2_tmp = n2.Next
+		fmt.Println(2)
+	}
+
+	sum += carry
+
+	if n1 == nil && n2 == nil && sum == 0 {
+		return nil
+	}
+	return &Listnode{Val: sum % 10, Next: addTwoNumber(n1_tmp, n2_tmp, sum/10)}
+}

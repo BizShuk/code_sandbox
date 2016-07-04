@@ -47,4 +47,23 @@ func TestListCopy(t *testing.T) {
 	fmt.Println("List 5: 2(3) -> 2(5) -> 3() -> 4(2) -> 5() ")
 	a5 := a1.CopyArbitrary()
 	a5.Show()
+
+	// addTwoNumber
+	lt2 := List{}
+	lt2.push_back(&Listnode{Val: 2})
+	lt2.push_back(&Listnode{Val: 4})
+	lt2.push_back(&Listnode{Val: 3})
+
+	lt3 := List{}
+	lt3.push_back(&Listnode{Val: 5})
+	lt3.push_back(&Listnode{Val: 6})
+	lt3.push_back(&Listnode{Val: 4})
+
+	nt2 := lt2.Cur
+	nt3 := lt3.Cur
+	fmt.Println("addTwoNumber: nt2:", nt2.Val, ",nt3:", nt3.Val)
+
+	nt_new := addTwoNumber(nt2, nt3, 0)
+	nt_new.Show()
+
 }
