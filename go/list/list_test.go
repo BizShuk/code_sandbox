@@ -10,11 +10,11 @@ func TestListCopy(t *testing.T) {
 	// list 1
 	fmt.Println("List 1: 1 -> 2 -> 3 -> 4 -> 5")
 	a1 := List{}
-	a1.push_back(&Listnode{Val: 1})
-	a1.push_back(&Listnode{Val: 2})
-	a1.push_back(&Listnode{Val: 3})
-	a1.push_back(&Listnode{Val: 4})
-	a1.push_back(&Listnode{Val: 5})
+	a1.Push_back(&Listnode{Val: 1})
+	a1.Push_back(&Listnode{Val: 2})
+	a1.Push_back(&Listnode{Val: 3})
+	a1.Push_back(&Listnode{Val: 4})
+	a1.Push_back(&Listnode{Val: 5})
 	a1.Show()
 
 	// list 2
@@ -50,14 +50,14 @@ func TestListCopy(t *testing.T) {
 
 	// addTwoNumber
 	lt2 := List{}
-	lt2.push_back(&Listnode{Val: 2})
-	lt2.push_back(&Listnode{Val: 4})
-	lt2.push_back(&Listnode{Val: 3})
+	lt2.Push_back(&Listnode{Val: 2})
+	lt2.Push_back(&Listnode{Val: 4})
+	lt2.Push_back(&Listnode{Val: 3})
 
 	lt3 := List{}
-	lt3.push_back(&Listnode{Val: 5})
-	lt3.push_back(&Listnode{Val: 6})
-	lt3.push_back(&Listnode{Val: 4})
+	lt3.Push_back(&Listnode{Val: 5})
+	lt3.Push_back(&Listnode{Val: 6})
+	lt3.Push_back(&Listnode{Val: 4})
 
 	nt2 := lt2.Cur
 	nt3 := lt3.Cur
@@ -65,5 +65,35 @@ func TestListCopy(t *testing.T) {
 
 	nt_new := addTwoNumber(nt2, nt3, 0)
 	nt_new.Show()
+
+	// remove Nth from end
+	nrn := make([]interface{}, 5)
+	for i := 0; i < 5; i++ {
+		nrn[i] = i
+	}
+
+	nrn1 := CreateList(nrn)
+	nrn1.Show()
+	RemoveNthFromEnd(nrn1, 1)
+	nrn1.Show()
+	nrn1 = RemoveNthFromEnd(nrn1, 4)
+	nrn1.Show()
+	nrn1 = RemoveNthFromEnd(nrn1, 1)
+	nrn1.Show()
+	nrn1 = RemoveNthFromEnd(nrn1, 1)
+	nrn1.Show()
+	nrn1 = RemoveNthFromEnd(nrn1, 1)
+	nrn1.Show()
+
+	a := &Listnode{Val: 1}
+
+	atb := func(b *Listnode) {
+		b = &Listnode{Val: 2}
+		fmt.Println(b)
+
+	}
+	fmt.Println(a)
+	atb(a)
+	fmt.Println(a)
 
 }

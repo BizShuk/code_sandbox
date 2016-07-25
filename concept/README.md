@@ -27,9 +27,78 @@
 - DRY (don't repeat youself) , ex: FizzBuzz
 
 
+### Object-Oriented
+
+### Overloading
+same method with different parameters
+
+```
+func show(a int)
+func show(b string)
+```
+
+Dont Support: Go
+
+
+### Resource Sharing
+intently to get right resource, you need to lock resource.
+
+##### Race condition
+```
+var i int = 0
+func addone() int {
+    return i++
+}
+```
+=>
+```
+T1:1 , get from i = 0
+T2:1 , get from i = 0
+T1:2 , get from i = 1
+T2:3 , get from i = 2
+```
+
+##### Thread Safe
+avoid race condition.
+
+##### Immutable Object
+assign to other variable , keep original one the same.
+
+##### Other lock
+- Semaphore, countable lock
+- ReadWriteLock, seperate read and write
+
+##### Deadlock
+A
+```
+lock a
+    lock b
+```
+
+B
+```
+lock b 
+    lock a
+```
+
+### Flow Control
+
+##### Producer Consumer pattern
+a
+
+
+### Multi-Thread
+- [java multi-thread](https://popcornylu.gitbooks.io/java_multithread/content/thread.html)
+
+##### Thread pool
 
 
 
+
+### Service
+
+##### HotSpot
+trigger quantiies of service in the same time
 
 ### 
 - [string](string.md)

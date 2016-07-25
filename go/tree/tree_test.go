@@ -32,7 +32,8 @@ func TestTreeHeight_byindex(t *testing.T) {
 	n2.Left = n3
 	n3.Right = n4
 	n1.Right = n5
-
-	fmt.Println("n1 height:", n1.MaxDepth())
+	n1.Show()
+	fmt.Println("n1 max height:", n1.MaxDepth())
+	fmt.Println("n1 min height:", n1.MinDepth())
 
 }

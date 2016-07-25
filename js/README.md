@@ -25,6 +25,32 @@ will cause leak or not?
     a = a.x()
 
 ```
+
+
+### condition
+- `==`  , weak type comparsion please check [boolean](#boolean)
+- `===` , 
+
+
+### boolean
+
+true:
+- 1
+- true
+- "anyword"
+
+false:
+- 0
+- false
+- ""
+
+
+### string
+```
+str = "joe:x:100:100:see";
+str.split(":")  => ["joe","x",100,100,"see"]
+```
+
 ### number
 All numbers in JavaScript are 64-bit (double-precision) floating point numbers.
 
