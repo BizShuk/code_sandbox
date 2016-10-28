@@ -29,3 +29,9 @@ func (s *stack) Peek() interface{} {
 
 	return last
 }
+
+func (s *stack) Reverse() {
+	last := s.Pop()
+	s.Reverse()
+	s.Push(last)
+}
