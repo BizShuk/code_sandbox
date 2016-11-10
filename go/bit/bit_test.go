@@ -15,4 +15,14 @@ func TestBitSequence(t *testing.T) {
 	cases := 123456
 	a = BitSequence(cases)
 	fmt.Println("cases:", cases, "result:", a)
+
+	BitNumberAdd(1, 1)
+	BitNumberAdd(3, 4)
+	BitNumberAdd(1, 5)
+	BitNumberAdd(2, 2)
+
+	BitNumberAdd_rev(123, 321)
+	BitNumberAdd_rev(1, 31)
+	BitNumberAdd_rev(13, 21)
+	BitNumberAdd_rev(3, 321)
 }

@@ -25,3 +25,22 @@ func BitSequence(num int) []int {
 	}
 	return ret
 }
+
+func BitNumberAdd(n1 int, n2 int) int {
+
+	sum := n1
+	for n2 != 0 {
+		sum = n1 ^ n2
+		n2 = (n1 & n2) << 1
+		n1 = sum
+	}
+
+	return sum
+}
+
+func BitNumberAdd_rev(n1 int, n2 int) int {
+	if n2 == 0 {
+		return n1
+	}
+	return BitNumberAdd_rev(n1^n2, (n1&n2)<<1)
+}
