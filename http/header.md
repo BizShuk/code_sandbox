@@ -35,6 +35,17 @@
 - X-..... , 非標準使用Header
     - X-Powered-By , what kind of web service tech
     - X-Version , web service version
+- X-Frame-Options , Policy for that page is embeded to another one
+    + DENY
+    + SAMEORIGIN
+    + ALLOW-FROM [uri]
+
+### html link tag
+- `<link rel="shortcut icon" href="https://s.ytimg.com/yts/img/favicon-vflz7uhzw.ico" type="image/x-icon">` for browser tab icon
+- 
+
+
+
 
 ### Cache
 [ ]check flow
@@ -58,3 +69,5 @@ check cache expire time
     - no-cache
 - Expires , useless after http1.1
     - `<time>`
+
+
