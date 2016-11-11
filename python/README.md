@@ -8,10 +8,10 @@ pythone 2 vs python 3
 x//y
 
 parent class  
-	self.v1
+    self.v1
 
 child class
-	self.v2
+    self.v2
 
 
 dir_name file_name class_name for init class instance

@@ -1,4 +1,4 @@
-### HTTP SEO
+# SEO
 SEO(Search Engine Optimization)
 
 

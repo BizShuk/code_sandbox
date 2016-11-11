@@ -1,4 +1,18 @@
+# Database
+
+### SQL
+- pros:
+- cons:
+
+
+
+
+
+
 ### NoSQL
+- pros:
+- cons:
+
 - distributed
 - schema-fee
 - eventually consistent
