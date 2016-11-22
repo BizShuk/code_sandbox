@@ -12,6 +12,7 @@ Concept:
 - [Class](class.cpp)
 - [Reference](reference.cpp)
 - [Garbage Collection](gc.cpp)
+- [generic](generic.cpp)
 
 Google for Education C++:
 - Getting Started

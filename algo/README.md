@@ -1,5 +1,14 @@
 # Algorithm
 
+### note
+AND, OR, XOR
+bit count('1')
+bit shift 
+signed integer : positive >> n = 0 , negative >> n = -1
+
+
+
+
 ### Reference
 - [Top 7 Algo.](https://codingsec.net/2016/03/7-algorithms-data-structures-every-programmer/)
 - [Top 10 Algo](http://www.techbang.com/posts/18438-ruled-the-worlds-top-ten-algorithms)

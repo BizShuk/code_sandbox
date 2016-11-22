@@ -2,9 +2,8 @@
 
 ### Doing
 - [演算法筆記](http://www.csie.ntnu.edu.tw/~u91029/index.html)
-- [LeeCode](https://leetcode.com/s) , algorithm submission
-- [Go](go/README.md)
-- [Gooogle Site Reliability Engineering](https://landing.google.com/sre/)
+- [LeeCode](https://leetcode.com/) 
+- [Design Pattern](https://sourcemaking.com/design_patterns)
 
 
 
@@ -35,12 +34,11 @@
 ### Network 
 - [Network programming初學](http://beej-zhtw-gitbook.netdpi.net/)
 
+
 ### Online Learning Resource
-- [演算法筆記](http://www.csie.ntnu.edu.tw/~u91029/index.html)
-- [LeeCode](https://leetcode.com/s) , algorithm submission
+- [LeeCode](https://leetcode.com/s)
+- [HackerRank](http://)
 - [FreeCodeCampe](http://freecodecamp.com/) , HTML javascript CSS
-
-
 
 
 ### Architecture
@@ -49,9 +47,9 @@
 - [System design Concept](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
 
 
-
 ### Article
 - [How does AFS work?](http://www.apache.org/foundation/how-it-works.html) , include commiter level
+- [Gooogle Site Reliability Engineering](https://landing.google.com/sre/)
 - 
 
 ### Others
@@ -59,8 +57,6 @@
 
 
 <br><br><br><br>
-
-
 
 
 

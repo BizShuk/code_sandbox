@@ -41,8 +41,9 @@ F = Fibonacci()
 
 result = F.f(8181)
 print(result)
-result = F.f2(8181)
-print(result)
 
+for i in range(100):
+    result = F.f(i)
+    print(result)
 
 print(sys.getrecursionlimit())

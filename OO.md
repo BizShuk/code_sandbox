@@ -19,3 +19,11 @@ final : 成員 (member) 宣告時若使用關鍵字 final 修飾，表示該成�
 
 ### polymorphism
 延申自繼承(Inheritance)或介面(Interface),指的就是不同型態的物件,定義相同的操作介面,由於被呼叫者(Callee)有著相同介面,呼叫者並不用指定特定型別,只需針對介面進行操作,實際執行的物件則在runtime決定,藉此增加程式碼的彈性。 
+
+
+### Generic
+傳入的參數可以動態型別
+ types to-be-specified-later that are then instantiated when needed for specific types provided as parameters
+
+
+- [C++](c_cpp/generic.cpp)
