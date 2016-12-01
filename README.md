@@ -4,12 +4,48 @@
 - [演算法筆記](http://www.csie.ntnu.edu.tw/~u91029/index.html)
 - [LeeCode](https://leetcode.com/) 
 - [Design Pattern](https://sourcemaking.com/design_patterns)
+- [js Design Pattern](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjavascript)
 
 
+- react
+- python
+- nodejs
+- html5
+- spark
+- docker
+- jenkins
+- design pattern
+- algo
 
 ### LINK
+- [Design Pattern](https://sourcemaking.com/design_patterns)
 - [Algo](algo/README.md)
 - [Code Concept](concept/README.md)
+- Languages
+    - [Go](go/README.md)
+    - [Python](Python/README.md) 
+    - [bash](bash/README.md)
+    - [javascript](js/README.md) 
+        + ReactJS
+        + Angularjs
+    - [html5](html5/README.md)
+    - [CSS](css/README.md)
+    - [makefile](makefile.md)
+- Field
+    - [cryptographic](cryptographic/README.md)
+
+
+### Network 
+- [Network programming初學](http://beej-zhtw-gitbook.netdpi.net/)
+- [Network model](network/README.md)
+
+### Online Learning Resource
+- [LeeCode](https://leetcode.com/s)
+- [HackerRank](https://www.hackerrank.com/domains)
+- [FreeCodeCampe](http://freecodecamp.com/) , HTML javascript CSS
+
+
+### Architecture
 - [Linux](Linux/README.md)
 - [Server](server/README.md)
     - Nginx
@@ -18,30 +54,11 @@
 - [Database](Database/README.md)
 - [DevOps](DevOps/README.md)
     - Docker
-    -
-- Languages
-    - [Go](go/README.md)
-    - Python
-    - [bash](bash/README.md)
-    - javascript
-    - html5
-    - CSS 
-    - [makefile](makefile.md)
-- Field
-    - [cryptographic](cryptographic/README.md)
+    - Kubenetes
+    - Jenkins
+    - Jmeter
+    - 
 
-
-### Network 
-- [Network programming初學](http://beej-zhtw-gitbook.netdpi.net/)
-
-
-### Online Learning Resource
-- [LeeCode](https://leetcode.com/s)
-- [HackerRank](http://)
-- [FreeCodeCampe](http://freecodecamp.com/) , HTML javascript CSS
-
-
-### Architecture
 - ![](Architecture_design_rules.png)
 - [System design interview](https://github.com/checkcheckzz/system-design-interview)
 - [System design Concept](https://gist.github.com/vasanthk/485d1c25737e8e72759f)

@@ -1,2 +1,0 @@
-- [12 Essential HTML5 Interview Questions](http://www.toptal.com/html5/interview-questions)
-- [tutorialpoint HTML5 interview questions](http://www.tutorialspoint.com/html5/html5_interview_questions.htm)

@@ -1,1 +1,0 @@
-http://blog.longwin.com.tw/2013/03/nosql-db-choose-cap-theorem-2013/

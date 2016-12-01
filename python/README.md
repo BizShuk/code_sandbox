@@ -3,6 +3,17 @@
 
 ### note
 - execute with sequential , call function after define it
+- weak closure , which can modify global variable with `global [variable]` , but variable in outer function can't be modify by inner function
+- use [itertools](http://wklken.me/posts/2013/08/20/python-extra-itertools.html#itertoolscountstart0-step1),operations , functools
+-
+
+### function
+- closure:
+- inner function: 
+- coroutine (yield):
+- decorator
+
+
 
 
 

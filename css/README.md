@@ -1,3 +1,16 @@
+# CSS
+
+### header
+`<link rel="dns-prefetch" href="//fonts.googleapis.com">` , prefetch domain name
+
+
+### color
+- #F1F2F1
+- #464442
+- #E9E9E9
+
+
+
 ## bootstrap 
 - [testing](http://codepen.io/shuk/pen/megGXL)
 - [bootstrap tips](bootstrap.md)
