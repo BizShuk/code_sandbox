@@ -1,5 +1,15 @@
 # React JS
 
+
+
+### note bug
+- target is not a DOM element => DOM haven't rendered
+- Unknown DOM property class. Did you mean className.  => use className in ReactJS ,not class for css.
+- Cannot read property 'setState' of undefined , => this.state = {} on constructor
+- performUpdateIfNecessary: Unexpected batch number
+
+
+
 1. React elements are immutable.
 2. **pure** never change prop , and Props are read-only
 3. one-way data flow (also called one-way binding) 
