@@ -18,12 +18,24 @@ generate simple express project
     =>
     var port = normalizePort(packagejson.server.port || '3000');
 ```
-2. generate https pem and change to https
-3. if SEO is required , use jade template 
-4. add static route
+3. output pid to log dir
+```
+/**
+ * output PID
+ */
+var fs = require('fs');
+
+fs.open('log/server.pid','w+', (err,fd)=>{
+    fs.write(fd,process.pid);                                                                                                            
+}); 
+
+```
+4. generate https pem and change to https
+5. if SEO is required , use jade template 
+6. add static route
     `app.use('/static', express.static(__dirname + '/public'));`
-5. add mysql connection
-6. add mongo connection
+7. add mysql connection
+8. add mongo connection
 
 ### request
 [request](https://expressjs.com/en/4x/api.html#req)
