@@ -12,3 +12,13 @@ if (!Array.prototype.indexOf) {
         return -1;
     }
 }
+
+
+
+// ways to check integer
+// ref: http://stackoverflow.com/questions/14636536/how-to-check-if-a-variable-is-an-integer-in-javascript
+//function (data) {
+//    if (data === parseInt(data, 10)) return true;
+//    if(Number.isInteger(Number(data))) return true;
+//    return false;
+//}

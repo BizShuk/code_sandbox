@@ -1,3 +1,58 @@
+# Sass , Syntactically Awesome StyleSheets #
+[SASS reference](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
+
+defualt use : SCSS
+
+### Variable ###
+
+define `$<var>: <val>;` 
+use `$<var>`
+
+### Nesting ###
+```
+selector {
+	selector {
+
+	}
+}
+```
+
+### Import ###
+
+`@import <filename|url>`
+
+
+### Mixins ###
+```
+@mixin <function>( $a: "default value" , $b : "default value" , ...) {
+	
+}
+```
+
+### extend = inheritance ###
+```
+selectorA {
+	
+}
+
+selectorB {
+	@extend selectorA
+}
+
+```
+### Operators ###
+`+` , `-` , `*` , `/` , '%'
+comment `//` , `/**/`
+
+
+
+
+
+
+
+===================================
+
+
 NOTE
 ref:http://blog.visioncan.com/2011/compass-sass-your-css/
 

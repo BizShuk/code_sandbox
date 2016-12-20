@@ -1,6 +1,6 @@
 # React JS
 
-
+[javascript-redux-generating-containers-with-connect-from-react-redux-visibletodolist](https://egghead.io/lessons/javascript-redux-generating-containers-with-connect-from-react-redux-visibletodolist)
 
 ### note bug
 - target is not a DOM element => DOM haven't rendered

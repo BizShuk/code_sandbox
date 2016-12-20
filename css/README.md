@@ -3,6 +3,10 @@
 ### link
 - [Default styles for css](https://shapeshed.com/default-styles-for-css/)
 - [How to size text using ems](http://clagnut.com/blog/348/)
+- [CSS-Tricks](https://css-tricks.com/)
+
+### note
+[WAI-ARIA](https://www.w3.org/WAI/intro/aria.php)
 
 
 ### color
@@ -10,16 +14,26 @@
 - #464442
 - #E9E9E9
 
-### left right align
-- float:left right
-- margin:0 auto;
-http://blog.yam.com/hanasan/article/35806444
 
-### vertical align
-- vertical-align : center
-- line-height:50% for one line
-- add a div height:50% and margin-bottom: -100px;
-- 
+### Measuring length ###
+- cm - centimeters
+- em - elements (i.e., relative to the font-size of the element; e.g., 2 em means 2 times the current font size)
+- in - inches
+- mm - millimeters
+- pc - picas (1 pc = 12 pt = 1/6th of an inch)
+- pt - points (1 pt = 1/72nd of an inch)
+- px - pixels (1 px = 1/96th of an inch)
+
+
+### box model ###
+- Content - The content of the box, where text and images appear
+- Padding - A transparent area surrounding the content (i.e., the amount of space between the border and the content)
+- Border - A border surrounding the padding (if any) and content
+- Margin - A transparent area surrounding the border (i.e., the amount of space between the border and any neighboring elements)
+
+- content-box
+- padding-box
+- border-box
 
 ## bootstrap 
 - [testing](http://codepen.io/shuk/pen/megGXL)
@@ -27,5 +41,3 @@ http://blog.yam.com/hanasan/article/35806444
 - [SASS](SASS.md)
 
 
-### unset initial inherit
-The unset CSS keyword is the combination of the initial and inherit keywords. Like these two other CSS-wide keywords, it can be applied to any CSS property, including the CSS shorthand all. This keyword resets the property to its inherited value if it inherits from its parent or to its initial value if not. In other words, it behaves like the inherit keyword in the first case and like the initial keyword in the second case.

@@ -3,9 +3,12 @@
 
 - [event delegate]
 - [bind]
+    multiple bind will get first bind object, last of binding obj will not work.
 - [call by value vs call by reference]
-- [call & apply]
+- [call & apply] , call faster but need to know exactly size of arguments 
 - [Closure]()
+- [Ajax](#ajax)
+
 
 ### reference
 - [js tips](http://ejohn.org/apps/learn/)
@@ -36,6 +39,10 @@ false:
 - 0
 - false
 - ""
+
+null is object
+undefined is undefined
+
 
 ###     call vs apply
         function theFunction(name, profession) {
@@ -192,6 +199,70 @@ e.preventDefault => prevent default event like a link or a form submit button
 
 
 
+### DOM ###
+Document Objectc Model
+
+- `document.write("<content>")`
+
+- `document.getElementById(<id>)` , elem
+- `document.getElementsByTagName(<tag>)` , elems
+- `document.getElementsByClassName(<className>)` , elems
+- `document.querySelectorAll(<selector>)` , elems
+- `document.createElemnt(<tag>)` , elem
+- `elem.style.<style_attr>`
+- 
+- elem.innerHTML =  new html content   Change the inner HTML of an element
+- elem.value = 
+- elem.attribute = new value   Change the attribute value of an HTML element
+- elem.setAttribute(attribute, value)  Change the attribute value of an HTML element
+- elem.style.property = new style  Change the style of an HTML element
+
+navigation:
+- firstChild
+- lastChild
+- parentNode
+- nextSibling
+- previousSibling
+
+[event](#event)
+    
+
+navigator:
+
+
+### event ###
+`elem.addEventListener(event,function,useCapture)` , useCapture => trigger when event capturing , false trigger when event bubbling.
+
+attach different function to the same event without overide olds
+
+`elem.onclick`
+
+particular event list:
+- onchange , An HTML element has been changed
+- onclick , The user clicks an HTML element
+- onmouseover , The user moves the mouse over an HTML element
+- onmouseout , The user moves the mouse away from an HTML element
+- onkeydown , The user pushes a keyboard key
+- onload , The browser has finished loading the page
+
+### Ajax ###
+Asynchronouse Javascript And Xml
+
+pure ajax
+```
+// XMLHttpRequest.DONE
+
+
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.open("<http method>","<url>",async);
+xmlhttp.onreadystatechange = function() {
+    xmlhttp.readyState 
+    xmlhttp.status     // http status
+    xmlhttp.statusText // for error code
+}
+xmlhttp.send(dataobj)
+```
+
 ### Object-Orieted
 
 ##### # inherited
@@ -236,6 +307,18 @@ funciton() vs new function()
     console.log(b,c,d); // 5 6 6 , a 為local 會炸
 ```
 
+spread operation:
+```
+function fn() {
+
+    console.log(Array.from(arguments));
+}
+
+a = [1, 2, 3];
+fn(...a);
+```
+
+
 ```
     console.log(typeof null);           // object
     console.log(typeof {});             // object
@@ -244,6 +327,10 @@ funciton() vs new function()
     console.log(typeof new Array());    // object
     console.log(typeof function(){});   // function
     console.log(typeof new Date())      // object
+
+
+    instanceof , check prototype chain
+    new String() instanceof String
 ```
 
 
@@ -284,7 +371,14 @@ why?
             $.data(elem, key, value);
 ```
 
-
+```
+0.1 +0.2 === 0.3  // false
+function multFloats(a,b){
+  var atens = Math.pow(10,String(a).length - String(a).indexOf('.') - 1), 
+      btens = Math.pow(10,String(b).length - String(b).indexOf('.') - 1); 
+  return (a * atens) * (b * btens) / (atens * btens); 
+}
+```
 
 why?
 ```
@@ -314,4 +408,14 @@ why?
             scareMe(); // Double boo!
             scareMe(); // Double boo!
             console.log(scareMe.property); // undefined
+```
+
+
+```
+var foo = 1;
+
+if (True){
+    var foo =3;
+}
+console.log(foo); // 3
 ```
